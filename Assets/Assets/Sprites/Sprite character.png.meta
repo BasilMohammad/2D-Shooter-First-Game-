@@ -1,19 +1,19 @@
 fileFormatVersion: 2
 guid: d26c3234ea6ab854aa393e80a180ad6c
-timeCreated: 1507039029
+timeCreated: 1507045549
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: Sprite character walk_0
     21300002: Sprite character walk_1
-    21300004: Sprite character_0
-    21300006: Sprite character_1
-    21300008: Sprite character_2
-    21300010: Sprite character_3
-    21300012: Sprite character_4
-    21300014: Sprite character_5
-    21300016: Sprite character_6
-    21300018: Sprite character_7
+    21300004: Sprite character idle_0
+    21300006: Sprite character idle 1
+    21300008: Sprite character idle_2
+    21300010: Sprite character idle_3
+    21300012: Sprite character idle_4
+    21300014: Sprite character idle_5
+    21300016: Sprite character idle_6
+    21300018: Sprite character idle_7
     21300020: Sprite character walk_0
     21300022: Sprite character walk_1
     21300024: Sprite character walk_2
@@ -34,19 +34,19 @@ TextureImporter:
     21300054: Sprite character jump_6
     21300056: Sprite character jump _7
     21300058: Sprite character jump_8
-    21300060: Sprite character_44
-    21300062: Sprite character_45
-    21300064: Sprite character_46
-    21300066: Sprite character_47
+    21300060: Sprite character Shoot_44
+    21300062: Sprite character Shoot_45
+    21300064: Sprite character Shoot_46
+    21300066: Sprite character Shoot_47
     21300068: Sprite character_48
     21300070: Sprite character_49
     21300072: Sprite character_50
     21300074: Sprite character_51
     21300076: Sprite character_52
-    21300078: Sprite character_8
-    21300080: Sprite character_9
-    21300082: Sprite character_10
-    21300084: Sprite character_11
+    21300078: Sprite character idle_8
+    21300080: Sprite character idle_9
+    21300082: Sprite character idle_10
+    21300084: Sprite character idle_11
     21300086: Sprite character_12
     21300088: Sprite character_13
     21300090: Sprite character_14
@@ -59,25 +59,25 @@ TextureImporter:
     21300104: Sprite character_21
     21300106: Sprite character_22
     21300108: Sprite character_23
-    21300110: Sprite character_24
-    21300112: Sprite character_25
-    21300114: Sprite character_26
-    21300116: Sprite character_27
-    21300118: Sprite character_28
-    21300120: Sprite character_29
-    21300122: Sprite character_30
-    21300124: Sprite character_31
-    21300126: Sprite character_32
-    21300128: Sprite character_33
-    21300130: Sprite character_34
-    21300132: Sprite character_36
-    21300134: Sprite character_37
-    21300136: Sprite character_38
-    21300138: Sprite character_39
-    21300140: Sprite character_40
-    21300142: Sprite character_41
-    21300144: Sprite character_42
-    21300146: Sprite character_43
+    21300110: Sprite character walk_24
+    21300112: Sprite character walk_25
+    21300114: Sprite character walk_26
+    21300116: Sprite character walk_27
+    21300118: Sprite character walk_28
+    21300120: Sprite character walk_29
+    21300122: Sprite character walk_30
+    21300124: Sprite character walk_31
+    21300126: Sprite character walk_32
+    21300128: Sprite character walk_33
+    21300130: Sprite character Jump_34
+    21300132: Sprite character Jump_36
+    21300134: Sprite character Jump_37
+    21300136: Sprite character Jump_38
+    21300138: Sprite character Jump_39
+    21300140: Sprite character Jump_40
+    21300142: Sprite character Jump_41
+    21300144: Sprite character Jump_42
+    21300146: Sprite character Jump_43
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -165,7 +165,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sprite character_0
+      name: Sprite character idle_0
       rect:
         serializedVersion: 2
         x: 7
@@ -179,7 +179,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_1
+      name: Sprite character idle 1
       rect:
         serializedVersion: 2
         x: 32
@@ -193,7 +193,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_2
+      name: Sprite character idle_2
       rect:
         serializedVersion: 2
         x: 68
@@ -207,7 +207,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_3
+      name: Sprite character idle_3
       rect:
         serializedVersion: 2
         x: 110
@@ -221,7 +221,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_4
+      name: Sprite character idle_4
       rect:
         serializedVersion: 2
         x: 150
@@ -235,7 +235,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_5
+      name: Sprite character idle_5
       rect:
         serializedVersion: 2
         x: 194
@@ -249,7 +249,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_6
+      name: Sprite character idle_6
       rect:
         serializedVersion: 2
         x: 232
@@ -263,7 +263,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_7
+      name: Sprite character idle_7
       rect:
         serializedVersion: 2
         x: 264
@@ -277,7 +277,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_8
+      name: Sprite character idle_8
       rect:
         serializedVersion: 2
         x: 296
@@ -291,7 +291,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_9
+      name: Sprite character idle_9
       rect:
         serializedVersion: 2
         x: 328
@@ -305,7 +305,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_10
+      name: Sprite character idle_10
       rect:
         serializedVersion: 2
         x: 367
@@ -319,7 +319,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_11
+      name: Sprite character idle_11
       rect:
         serializedVersion: 2
         x: 400
@@ -333,175 +333,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_12
-      rect:
-        serializedVersion: 2
-        x: 20
-        y: 250
-        width: 24
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_13
-      rect:
-        serializedVersion: 2
-        x: 58
-        y: 250
-        width: 24
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_14
-      rect:
-        serializedVersion: 2
-        x: 104
-        y: 251
-        width: 26
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_15
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 249
-        width: 28
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_16
-      rect:
-        serializedVersion: 2
-        x: 190
-        y: 247
-        width: 34
-        height: 53
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_17
-      rect:
-        serializedVersion: 2
-        x: 237
-        y: 247
-        width: 31
-        height: 52
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_18
-      rect:
-        serializedVersion: 2
-        x: 275
-        y: 248
-        width: 33
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_19
-      rect:
-        serializedVersion: 2
-        x: 316
-        y: 250
-        width: 33
-        height: 50
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_20
-      rect:
-        serializedVersion: 2
-        x: 367
-        y: 244
-        width: 28
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_21
-      rect:
-        serializedVersion: 2
-        x: 411
-        y: 246
-        width: 24
-        height: 43
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_22
-      rect:
-        serializedVersion: 2
-        x: 457
-        y: 246
-        width: 24
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_23
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 247
-        width: 24
-        height: 51
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_24
+      name: Sprite character walk_24
       rect:
         serializedVersion: 2
         x: 13
@@ -515,7 +347,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_25
+      name: Sprite character walk_25
       rect:
         serializedVersion: 2
         x: 74
@@ -529,7 +361,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_26
+      name: Sprite character walk_26
       rect:
         serializedVersion: 2
         x: 140
@@ -543,7 +375,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_27
+      name: Sprite character walk_27
       rect:
         serializedVersion: 2
         x: 200
@@ -557,7 +389,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_28
+      name: Sprite character walk_28
       rect:
         serializedVersion: 2
         x: 250
@@ -571,7 +403,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_29
+      name: Sprite character walk_29
       rect:
         serializedVersion: 2
         x: 302
@@ -585,7 +417,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_30
+      name: Sprite character walk_30
       rect:
         serializedVersion: 2
         x: 361
@@ -599,7 +431,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_31
+      name: Sprite character walk_31
       rect:
         serializedVersion: 2
         x: 426
@@ -613,7 +445,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_32
+      name: Sprite character walk_32
       rect:
         serializedVersion: 2
         x: 484
@@ -627,7 +459,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_33
+      name: Sprite character walk_33
       rect:
         serializedVersion: 2
         x: 537
@@ -641,7 +473,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_34
+      name: Sprite character Jump_34
       rect:
         serializedVersion: 2
         x: 44
@@ -655,21 +487,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_35
-      rect:
-        serializedVersion: 2
-        x: 86
-        y: 94
-        width: 47
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Sprite character_36
+      name: Sprite character Jump_36
       rect:
         serializedVersion: 2
         x: 184
@@ -683,7 +501,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_37
+      name: Sprite character Jump_37
       rect:
         serializedVersion: 2
         x: 217
@@ -697,7 +515,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_38
+      name: Sprite character Jump_38
       rect:
         serializedVersion: 2
         x: 262
@@ -711,7 +529,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_39
+      name: Sprite character Jump_39
       rect:
         serializedVersion: 2
         x: 295
@@ -725,7 +543,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_40
+      name: Sprite character Jump_40
       rect:
         serializedVersion: 2
         x: 339
@@ -739,7 +557,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_41
+      name: Sprite character Jump_41
       rect:
         serializedVersion: 2
         x: 383
@@ -753,7 +571,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_42
+      name: Sprite character Jump_42
       rect:
         serializedVersion: 2
         x: 430
@@ -767,7 +585,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_43
+      name: Sprite character Jump_43
       rect:
         serializedVersion: 2
         x: 469
@@ -781,7 +599,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_44
+      name: Sprite character Shoot_44
       rect:
         serializedVersion: 2
         x: 20
@@ -795,7 +613,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_45
+      name: Sprite character Shoot_45
       rect:
         serializedVersion: 2
         x: 51
@@ -809,7 +627,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_46
+      name: Sprite character Shoot_46
       rect:
         serializedVersion: 2
         x: 106
@@ -823,7 +641,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character_47
+      name: Sprite character Shoot_47
       rect:
         serializedVersion: 2
         x: 166
