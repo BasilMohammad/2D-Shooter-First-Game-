@@ -1,13 +1,13 @@
 fileFormatVersion: 2
 guid: d26c3234ea6ab854aa393e80a180ad6c
-timeCreated: 1507045549
+timeCreated: 1507129354
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: Sprite character walk_0
     21300002: Sprite character walk_1
     21300004: Sprite character idle_0
-    21300006: Sprite character idle 1
+    21300006: Sprite character idle_1
     21300008: Sprite character idle_2
     21300010: Sprite character idle_3
     21300012: Sprite character idle_4
@@ -179,7 +179,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: Sprite character idle 1
+      name: Sprite character idle_1
       rect:
         serializedVersion: 2
         x: 32
