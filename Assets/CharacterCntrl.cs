@@ -9,6 +9,12 @@ public class CharacterCntrl : MonoBehaviour
 
     Animator anim;
 
+    bool grounded = false;
+    public Transform groundCheck;
+    float groundRadius = 0.2f;
+    public LayerMask whatIsGround;
+    public float jumpForce = 700f;
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -19,6 +25,13 @@ public class CharacterCntrl : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        //checks constantly if we are on ground
+        grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
+        anim.SetBool("Ground", grounded);
+
+        anim.SetFloat("vSpeed", GetComponen);
+
+
 
             float move = Input.GetAxis("Horizontal");
             anim.SetFloat("Speed", Mathf.Abs(move));
@@ -31,6 +44,18 @@ public class CharacterCntrl : MonoBehaviour
             Flip();
 
     }
+
+
+    void Update()
+    {
+    if (grounded && Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            anim.SetBool("Ground", false);
+          GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
+        }  
+    }
+
+
     void Flip()
     {
         //This is made because i want my character to got not only right, but left also.
