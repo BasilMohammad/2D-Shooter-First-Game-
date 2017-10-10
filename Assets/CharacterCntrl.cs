@@ -29,11 +29,10 @@ public class CharacterCntrl : MonoBehaviour
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
         anim.SetBool("Ground", grounded);
 
-        anim.SetFloat("vSpeed", GetComponen);
+        anim.SetFloat("vSpeed", GetComponent<Rigidbody2D>().velocity.y);
 
 
-
-            float move = Input.GetAxis("Horizontal");
+        float move = Input.GetAxis("Horizontal");
             anim.SetFloat("Speed", Mathf.Abs(move));
             Rigidbody2D rb2d = GetComponent<Rigidbody2D>();
             rb2d.velocity = new Vector2(move * maxspeed, 0.0f);
@@ -50,7 +49,7 @@ public class CharacterCntrl : MonoBehaviour
     {
     if (grounded && Input.GetKeyDown(KeyCode.UpArrow))
         {
-            anim.SetBool("Ground", false);
+          anim.SetBool("Ground", false);
           GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
         }  
     }
