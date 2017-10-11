@@ -6,15 +6,13 @@ public class CharacterCntrl : MonoBehaviour
 {
     public float maxspeed = 10f;
     bool facingRight = true;
-
     Animator anim;
 
-    bool grounded = false;
+    public bool grounded = false;
     public Transform groundCheck;
     float groundRadius = 0.2f;
     public LayerMask whatIsGround;
-    public float jumpForce = 700f;
-
+    public float jumpForce = 5000f;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -28,7 +26,6 @@ public class CharacterCntrl : MonoBehaviour
         //checks constantly if we are on ground
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
         anim.SetBool("Ground", grounded);
-
         anim.SetFloat("vSpeed", GetComponent<Rigidbody2D>().velocity.y);
 
 
@@ -50,7 +47,8 @@ public class CharacterCntrl : MonoBehaviour
     if (grounded && Input.GetKeyDown(KeyCode.UpArrow))
         {
           anim.SetBool("Ground", false);
-          GetComponent<Rigidbody2D>().AddForce(new Vector2(0, jumpForce));
+            GetComponent<Rigidbody2D>().AddForce(transform.up*jumpForce);
+            
         }  
     }
 
