@@ -7,7 +7,7 @@ public class CharacterCntrl : MonoBehaviour
     public float maxspeed = 10f;
     bool facingRight = true;
     Animator anim;
-
+    public bool Shooting = false;
     public bool grounded = false;
     public Transform groundCheck;
     float groundRadius = 0.2f;
@@ -27,7 +27,7 @@ public class CharacterCntrl : MonoBehaviour
         grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround);
         anim.SetBool("Ground", grounded);
         anim.SetFloat("vSpeed", GetComponent<Rigidbody2D>().velocity.y);
-
+        anim.SetBool("Shoot", Shooting);
 
         float move = Input.GetAxis("Horizontal");
             anim.SetFloat("Speed", Mathf.Abs(move));
@@ -49,7 +49,12 @@ public class CharacterCntrl : MonoBehaviour
           anim.SetBool("Ground", false);
             GetComponent<Rigidbody2D>().AddForce(transform.up*jumpForce);
             
-        }  
+        }
+
+        if (grounded && Input.GetKeyDown(KeyCode.Space))
+        {
+            anim.SetBool("Shoot", true);
+        }
     }
 
 
