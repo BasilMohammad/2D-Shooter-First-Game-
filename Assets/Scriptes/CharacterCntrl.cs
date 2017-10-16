@@ -13,6 +13,8 @@ public class CharacterCntrl : MonoBehaviour
     float groundRadius = 0.2f;
     public LayerMask whatIsGround;
     public float jumpForce = 5000f;
+    public Transform firePoint;
+    public GameObject Bullet;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -28,6 +30,7 @@ public class CharacterCntrl : MonoBehaviour
         anim.SetBool("Ground", grounded);
         anim.SetFloat("vSpeed", GetComponent<Rigidbody2D>().velocity.y);
         anim.SetBool("Shoot", Shooting);
+
 
         float move = Input.GetAxis("Horizontal");
             anim.SetFloat("Speed", Mathf.Abs(move));
@@ -55,6 +58,11 @@ public class CharacterCntrl : MonoBehaviour
         {
             anim.SetBool("Shoot", true);
         }
+        if (Input.GetKeyDown(KeyCode.Return))
+        {
+            Instantiate(Bullet, firePoint.position, firePoint.rotation);
+        }
+
     }
 
 
