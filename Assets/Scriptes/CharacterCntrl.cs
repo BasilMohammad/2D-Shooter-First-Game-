@@ -15,6 +15,7 @@ public class CharacterCntrl : MonoBehaviour
     public float jumpForce = 5000f;
     public Transform firePoint;
     public GameObject Bullet;
+
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -57,9 +58,6 @@ public class CharacterCntrl : MonoBehaviour
         if (grounded && Input.GetKeyDown(KeyCode.Space))
         {
             anim.SetBool("Shoot", true);
-        }
-        if (Input.GetKeyDown(KeyCode.Return))
-        {
             Instantiate(Bullet, firePoint.position, firePoint.rotation);
         }
 

@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class BulletControl : MonoBehaviour {
     public float speed;
-
+    public CharacterCntrl player;
 
 	// Use this for initialization
 	void Start () {
-        GetComponent<Rigidbody2D>().velocity = new Vector2(speed, GetComponent<Rigidbody2D>().velocity.y);
+        player = FindObjectOfType<CharacterCntrl>();
+        if (player.transform.localScale.x < 0)
+            speed = -speed;            
+        
     }
 	
 	// Update is called once per frame
@@ -20,7 +23,11 @@ public class BulletControl : MonoBehaviour {
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        Destroy(gameObject);
+        if (other.tag == "Enemy")
+        {
+            Destroy(other.gameObject);
+        }
+        
     }
 
 }
