@@ -27,6 +27,10 @@ public class BulletControl : MonoBehaviour {
         {
             Destroy(other.gameObject);
         }
+        if (other.tag == "Env")
+        {
+            Destroy(other.gameObject);
+        }
         
     }
 

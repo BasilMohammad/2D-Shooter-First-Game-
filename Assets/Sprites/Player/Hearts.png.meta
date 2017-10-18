@@ -1,15 +1,11 @@
 fileFormatVersion: 2
-guid: 30d48a56f586bb545adced244d1036df
-timeCreated: 1508247469
+guid: 18588914aac5a9647910cde705a6f596
+timeCreated: 1508336685
 licenseType: Pro
 TextureImporter:
   fileIDToRecycleName:
     21300000: Hearts_0
     21300002: Hearts_1
-    21300004: Hearts_2
-    21300006: Hearts_3
-    21300008: Hearts_4
-    21300010: Hearts_5
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -51,7 +47,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 25
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -100,13 +96,13 @@ TextureImporter:
       name: Hearts_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 77
-        width: 87
-        height: 13
+        width: 16
+        height: 14
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0, y: 0}
+      border: {x: 1, y: 0, z: 0, w: 1}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -114,68 +110,12 @@ TextureImporter:
       name: Hearts_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 62
-        width: 87
+        x: 19
+        y: 77
+        width: 15
         height: 13
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Hearts_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 47
-        width: 87
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Hearts_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 87
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Hearts_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 17
-        width: 87
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Hearts_5
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 2
-        width: 87
-        height: 13
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
