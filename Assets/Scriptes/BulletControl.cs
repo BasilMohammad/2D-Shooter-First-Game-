@@ -10,7 +10,12 @@ public class BulletControl : MonoBehaviour {
 	void Start () {
         player = FindObjectOfType<CharacterCntrl>();
         if (player.transform.localScale.x < 0)
-            speed = -speed;            
+        {
+            speed = -speed;
+            transform.localScale = new Vector3(-10f, 10f, 10f);
+        }
+            
+        
         
     }
 	
@@ -26,10 +31,11 @@ public class BulletControl : MonoBehaviour {
         if (other.tag == "Enemy")
         {
             Destroy(other.gameObject);
+            Destroy(gameObject);
         }
         if (other.tag == "Env")
         {
-            Destroy(other.gameObject);
+            Destroy(gameObject);
         }
         
     }
