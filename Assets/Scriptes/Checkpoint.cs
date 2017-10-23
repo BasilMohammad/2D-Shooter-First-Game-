@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KillPlayer : MonoBehaviour {
-
+public class Checkpoint : MonoBehaviour {
     public LevelManager levelManager;
     // Use this for initialization
     void Start()
     {
         levelManager = FindObjectOfType<LevelManager>();
     }
+
     // Update is called once per frame
     void Update () {
 		
@@ -18,7 +18,8 @@ public class KillPlayer : MonoBehaviour {
     {
         if (other.name == "Player")
         {
-            levelManager.RespawnPlayer();
+            levelManager.currentCheckpoint = gameObject;
+            Debug.Log("Activate Checpoint" + transform.position);
         }
     }
 
