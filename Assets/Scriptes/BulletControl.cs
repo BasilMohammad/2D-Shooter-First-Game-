@@ -5,7 +5,8 @@ using UnityEngine;
 public class BulletControl : MonoBehaviour {
     public float speed;
     public CharacterCntrl player;
-
+    public GameObject BulletParticle;
+    public GameObject Env;
 	// Use this for initialization
 	void Start () {
         player = FindObjectOfType<CharacterCntrl>();

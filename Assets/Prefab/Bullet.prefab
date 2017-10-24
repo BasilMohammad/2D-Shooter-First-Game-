@@ -109,6 +109,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   player: {fileID: 0}
+  BulletParticle: {fileID: 1936798041159520, guid: c19ddd5aa052b5343a0615bb0dd63b6f,
+    type: 2}
+  Env: {fileID: 1263995668447898, guid: c79b227ccb2adad4db0ae721c956d895, type: 2}
 --- !u!212 &212214566002778416
 SpriteRenderer:
   m_ObjectHideFlags: 1
