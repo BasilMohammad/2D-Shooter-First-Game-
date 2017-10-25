@@ -7,6 +7,8 @@ public class BulletControl : MonoBehaviour {
     public CharacterCntrl player;
     public GameObject BulletParticle;
     public GameObject Env;
+    public GameObject Bullet;
+    public GameObject Enemy;
 	// Use this for initialization
 	void Start () {
         player = FindObjectOfType<CharacterCntrl>();
@@ -31,12 +33,15 @@ public class BulletControl : MonoBehaviour {
     {
         if (other.tag == "Enemy")
         {
+
             Destroy(other.gameObject);
             Destroy(gameObject);
+            Instantiate(BulletParticle, Bullet.transform.position, Bullet.transform.rotation);
         }
         if (other.tag == "Env")
         {
             Destroy(gameObject);
+            Instantiate(BulletParticle, Bullet.transform.position, Bullet.transform.rotation);
         }
         
     }

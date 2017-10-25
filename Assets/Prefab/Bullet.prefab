@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 58792522232980286}
   - component: {fileID: 50113976281045826}
   - component: {fileID: 114572434162868634}
+  - component: {fileID: 114533864115018710}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -96,6 +97,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114533864115018710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1511077157733304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 916f972356187474487a8e2fe506cc3a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114572434162868634
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -112,6 +124,8 @@ MonoBehaviour:
   BulletParticle: {fileID: 1936798041159520, guid: c19ddd5aa052b5343a0615bb0dd63b6f,
     type: 2}
   Env: {fileID: 1263995668447898, guid: c79b227ccb2adad4db0ae721c956d895, type: 2}
+  Bullet: {fileID: 1511077157733304}
+  Enemy: {fileID: 1560092017368568, guid: 37b82197a8aec0a4d8e744d005aea480, type: 2}
 --- !u!212 &212214566002778416
 SpriteRenderer:
   m_ObjectHideFlags: 1
