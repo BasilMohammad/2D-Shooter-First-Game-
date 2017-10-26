@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4111528792997514}
   - component: {fileID: 212569515185496942}
   - component: {fileID: 61257727583914740}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: platform-block-06
   m_TagString: Env
   m_Icon: {fileID: 0}
