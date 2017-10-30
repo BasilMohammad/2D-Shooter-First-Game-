@@ -120,12 +120,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 20
-  player: {fileID: 0}
+  player: {fileID: 114578580768026890, guid: ff949304623590f4c9c92f093496c4dc, type: 2}
   BulletParticle: {fileID: 1936798041159520, guid: c19ddd5aa052b5343a0615bb0dd63b6f,
     type: 2}
   Env: {fileID: 1263995668447898, guid: c79b227ccb2adad4db0ae721c956d895, type: 2}
   Bullet: {fileID: 1511077157733304}
   Enemy: {fileID: 1560092017368568, guid: 37b82197a8aec0a4d8e744d005aea480, type: 2}
+  ZombieDeathParticle: {fileID: 1014901208579108, guid: 447483e14cda7f54e9797d3a1fc78d90,
+    type: 2}
 --- !u!212 &212214566002778416
 SpriteRenderer:
   m_ObjectHideFlags: 1

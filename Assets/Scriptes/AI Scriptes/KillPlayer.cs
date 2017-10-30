@@ -20,6 +20,11 @@ public class KillPlayer : MonoBehaviour {
         {
             levelManager.RespawnPlayer();
         }
+        if (other.name == "Box")
+        {
+            levelManager.RespawnPlayer();
+        }
+
     }
 
 }
